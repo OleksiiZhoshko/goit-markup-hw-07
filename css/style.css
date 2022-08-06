@@ -569,7 +569,7 @@ section {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
+} 
 
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0.3) rotate(1turn);
@@ -750,7 +750,7 @@ section {
 
 /* link */
 
-.button {
+.buttons {
     display: flex;
     gap: 8px;
     margin-bottom: 50px;
@@ -758,7 +758,7 @@ section {
 
 }
 
-.button__item {
+.buttons__item {
     padding: 6px 22px;
     font-family: inherit;
     color: var(--primary-color);
@@ -772,15 +772,15 @@ section {
     transition: background-color var(--animation), color var(--animation), box-shadow var(--animation);
 }
 
-.button__item--current {
+.buttons__item--current {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     color: var(--white-color);
     background-color: var(--accent-color);
 }
 
-.button__item:hover,
-.button__item:focus {
+.buttons__item:hover,
+.buttons__item:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: var(--white-color);
     background-color: var(--accent-color);
