@@ -10,7 +10,7 @@
     justify-content: center;
     transition: color var(--animation);
 
-    &:hover, :focus {
+    &:hover, &:focus {
             color: var(--accent-color);
         }
 }

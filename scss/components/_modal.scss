@@ -47,7 +47,7 @@
     cursor: pointer;
     transition: fill var(--animation);
 
-    &:hover,:focus {
+    &:hover, &:focus {
         fill: var(--accent-color);
     }
 }
