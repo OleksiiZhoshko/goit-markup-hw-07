@@ -264,7 +264,7 @@ section {
   -webkit-transition: fill var(--animation);
   transition: fill var(--animation);
 }
-.modal__button:hover, .modal__button :focus {
+.modal__button:hover, .modal__button:focus {
   fill: var(--accent-color);
 }
 

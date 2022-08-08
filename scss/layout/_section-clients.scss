@@ -18,7 +18,8 @@
     border-radius: 4%;
     transition: border-color var(--animation), color var(--animation);
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         border-color: var(--accent-color);
         color: var(--accent-color);
     }
