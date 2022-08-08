@@ -55,8 +55,7 @@
   transition: background-color var(--animation), box-shadow var(--animation);
   transition: background-color var(--animation), box-shadow var(--animation), -webkit-box-shadow var(--animation);
 }
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   background-color: var(--hover-color);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -449,7 +448,7 @@ section {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -502,7 +501,7 @@ section {
   padding-bottom: 32px;
   padding-top: 32px;
 }
-.nav__link:hover, .nav__link :focus {
+.nav__link:hover, .nav__link:focus {
   color: var(--accent-color);
 }
 
@@ -529,7 +528,7 @@ section {
   -webkit-transition: color var(--animation);
   transition: color var(--animation);
 }
-.contacts__link:hover, .contacts__link :focus {
+.contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
 }
 
@@ -713,7 +712,7 @@ section {
   -webkit-transition: background-color var(--animation), color var(--animation);
   transition: background-color var(--animation), color var(--animation);
 }
-.networks__link:hover, .networks__link :focus {
+.networks__link:hover, .networks__link:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
@@ -754,7 +753,7 @@ section {
   -webkit-transition: border-color var(--animation), color var(--animation);
   transition: border-color var(--animation), color var(--animation);
 }
-.clients__link:hover, .clients__link :focus {
+.clients__link:hover, .clients__link:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
@@ -842,7 +841,7 @@ section {
   -webkit-transition: background-color var(--animation);
   transition: background-color var(--animation);
 }
-.social__link:hover, .social__link :focus {
+.social__link:hover, .social__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -877,7 +876,7 @@ section {
   transition: background-color var(--animation), color var(--animation), box-shadow var(--animation);
   transition: background-color var(--animation), color var(--animation), box-shadow var(--animation), -webkit-box-shadow var(--animation);
 }
-.buttons__item:hover, .buttons__item :focus {
+.buttons__item:hover, .buttons__item:focus {
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(--white-color);
@@ -908,7 +907,7 @@ section {
   transition: box-shadow var(--animation), -webkit-box-shadow var(--animation);
   display: block;
 }
-.projects__link:hover, .projects__link :focus {
+.projects__link:hover, .projects__link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
